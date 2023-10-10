@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.vue is a Vue instance 1`] = `
+"<div class=\\"home\\">
+  <div class=\\"description\\">
+    <h2 class=\\"title\\">Welcome to the land of books...</h2>
+    <h3 class=\\"subtitle\\">Grab a cup of coffee and savour upon your favorite author's book!</h3>
+  </div>
+</div>"
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cart renders properly 1`] = `
+"<div>
+  <div class=\\"book-category\\">
+    <h1 class=\\"page-title\\">Cart</h1>
+    <p class=\\"sub-title\\">The books you have sorted out to buy...</p>
+  </div>
+  <div class=\\"cart-table\\">
+    <b-table-stub items=\\"[object Object],[object Object]\\" fields=\\"[object Object],[object Object],[object Object],[object Object]\\" value=\\"\\" striped=\\"true\\" hover=\\"true\\" filterdebounce=\\"0\\" sortby=\\"\\" sortdirection=\\"asc\\" sortcompareoptions=\\"[object Object]\\" labelsortasc=\\"Click to sort Ascending\\" labelsortdesc=\\"Click to sort Descending\\" labelsortclear=\\"Click to clear sorting\\" perpage=\\"0\\" currentpage=\\"1\\" selectmode=\\"multi\\" selectedvariant=\\"active\\" emptytext=\\"There are no records to show\\" emptyfilteredtext=\\"There are no records matching your request\\" apiurl=\\"\\"></b-table-stub>
+  </div>
+  <div class=\\"botoom-spacing\\">
+    <b-button-stub variant=\\"secondary\\" type=\\"button\\" tag=\\"button\\" target=\\"_self\\" class=\\"cart-button\\">Clear Cart</b-button-stub>
+    <b-button-stub variant=\\"outline-primary\\" type=\\"button\\" tag=\\"button\\" target=\\"_self\\" class=\\"cart-button\\">Place your order</b-button-stub>
+  </div>
+</div>"
+`;
+
+exports[`cart renders properly 2`] = `
+"<div>
+  <div class=\\"book-category\\">
+    <h1 class=\\"page-title\\">Cart</h1>
+    <p class=\\"sub-title\\">The books you have sorted out to buy...</p>
+  </div>
+  <div class=\\"cart-table\\">
+    <b-table-stub items=\\"[object Object],[object Object]\\" fields=\\"[object Object],[object Object],[object Object],[object Object]\\" value=\\"\\" striped=\\"true\\" hover=\\"true\\" filterdebounce=\\"0\\" sortby=\\"\\" sortdirection=\\"asc\\" sortcompareoptions=\\"[object Object]\\" labelsortasc=\\"Click to sort Ascending\\" labelsortdesc=\\"Click to sort Descending\\" labelsortclear=\\"Click to clear sorting\\" perpage=\\"0\\" currentpage=\\"1\\" selectmode=\\"multi\\" selectedvariant=\\"active\\" emptytext=\\"There are no records to show\\" emptyfilteredtext=\\"There are no records matching your request\\" apiurl=\\"\\"></b-table-stub>
+  </div>
+  <div class=\\"botoom-spacing\\">
+    <b-button-stub variant=\\"secondary\\" type=\\"button\\" tag=\\"button\\" target=\\"_self\\" class=\\"cart-button\\">Clear Cart</b-button-stub>
+    <b-button-stub variant=\\"outline-primary\\" type=\\"button\\" tag=\\"button\\" target=\\"_self\\" class=\\"cart-button\\">Place your order</b-button-stub>
+  </div>
+</div>"
+`;

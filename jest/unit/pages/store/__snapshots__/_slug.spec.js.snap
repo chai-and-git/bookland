@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`_slug.vue is a Vue instance 1`] = `
+"<b-jumbotron-stub headertag=\\"h1\\" headerlevel=\\"3\\" leadtag=\\"p\\" tag=\\"div\\" id=\\"jumbotron\\">
+  <h1 id=\\"book-category\\">Fiction Books</h1>
+  <b-list-group-stub tag=\\"div\\" id=\\"book-list\\">
+    <b-list-group-item-stub tag=\\"div\\" target=\\"_self\\" id=\\"book-list-item\\">
+      <b-container-stub tag=\\"div\\" id=\\"container\\">
+        <b-row-stub tag=\\"div\\" id=\\"container-row\\">
+          <b-col-stub cols=\\"12\\" sm=\\"auto\\" tag=\\"div\\" id=\\"container-image-col\\">
+            <b-img-stub blankcolor=\\"transparent\\"></b-img-stub>
+          </b-col-stub>
+          <b-col-stub tag=\\"div\\" id=\\"container-book-detail-col\\">
+            <div>
+              <h3></h3>
+            </div>
+            <div id=\\"book-author-row\\">
+              <h4></h4>
+            </div>
+            <div id=\\"book-desc-row\\">
+              <p id=\\"book-desc\\"></p>
+            </div>
+            <div id=\\"book-price-row\\">
+              <p id=\\"book-price\\">£ </p>
+            </div>
+            <div id=\\"add-to-cart-row\\">
+              <b-button-stub variant=\\"outline-secondary\\" type=\\"button\\" tag=\\"button\\" target=\\"_self\\">Add to Cart</b-button-stub>
+            </div>
+          </b-col-stub>
+        </b-row-stub>
+      </b-container-stub>
+    </b-list-group-item-stub>
+  </b-list-group-stub>
+</b-jumbotron-stub>"
+`;

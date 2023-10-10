@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Desktop AppHeader.vue is a Vue instance 1`] = `
+"<header class=\\"header\\">
+  <b-navbar-stub tag=\\"nav\\" type=\\"light\\" variant=\\"faded\\">
+    <b-navbar-brand-stub tag=\\"div\\" href=\\"/\\" target=\\"_self\\"><img src=\\"~assets/icons/educational-book.svg\\" alt=\\"Bookland logo\\" class=\\"siteLogo d-inline-block align-top\\">
+      <h1 class=\\"title\\">Bookland</h1>
+    </b-navbar-brand-stub>
+  </b-navbar-stub>
+  <b-navbar-nav-stub tag=\\"ul\\" class=\\"ml-auto\\"><a right=\\"\\"><img src=\\"~assets/icons/online-shopping.svg\\" alt=\\"store logo\\" class=\\"logo\\"></a> <a right=\\"\\"><img src=\\"~assets/icons/shopping-cart.svg\\" alt=\\"cart logo\\" class=\\"logo\\"></a>
+    <b-nav-item-dropdown-stub right=\\"true\\" offset=\\"0\\" boundary=\\"scrollParent\\" text=\\"\\" role=\\"menu\\">
+      <b-dropdown-text-stub tag=\\"p\\">~Categories~</b-dropdown-text-stub>
+      <b-dropdown-item-stub target=\\"_self\\"><a>
+          Fiction
+        </a><a>
+          Non-fiction
+        </a><a>
+          Biopic
+        </a><a>
+          Food
+        </a><a>
+          Thriller
+        </a><a>
+          Horror
+        </a><a>
+          Social
+        </a><a>
+          History
+        </a></b-dropdown-item-stub>
+    </b-nav-item-dropdown-stub>
+  </b-navbar-nav-stub>
+  <!---->
+</header>"
+`;
+
+exports[`Mobile AppHeader.vue is a Vue instance 1`] = `
+"<header class=\\"header\\">
+  <b-navbar-stub tag=\\"nav\\" type=\\"light\\" variant=\\"faded\\">
+    <b-navbar-brand-stub tag=\\"div\\" href=\\"/\\" target=\\"_self\\"><img src=\\"~assets/icons/educational-book.svg\\" alt=\\"Bookland logo\\" class=\\"siteLogo d-inline-block align-top\\">
+      <h1 class=\\"title\\">Bookland</h1>
+    </b-navbar-brand-stub>
+  </b-navbar-stub>
+  <!---->
+  <b-navbar-nav-stub tag=\\"ul\\" class=\\"ml-auto\\">
+    <b-nav-item-dropdown-stub id=\\"dropdown-right\\" right=\\"true\\" offset=\\"0\\" boundary=\\"scrollParent\\" text=\\"Right align\\" role=\\"menu\\" variant=\\"primary\\">
+      <b-dropdown-item-stub target=\\"_self\\" class=\\"imp-item\\"><a>Store</a></b-dropdown-item-stub>
+      <b-dropdown-item-stub href=\\"/cart\\" target=\\"_self\\" class=\\"imp-item\\"><a>Cart</a></b-dropdown-item-stub>
+      <b-dropdown-divider-stub tag=\\"hr\\"></b-dropdown-divider-stub>
+      <b-dropdown-text-stub tag=\\"p\\">Categories</b-dropdown-text-stub>
+      <b-dropdown-item-stub target=\\"_self\\"><a>
+          Fiction
+        </a><a>
+          Non-fiction
+        </a><a>
+          Biopic
+        </a><a>
+          Food
+        </a><a>
+          Thriller
+        </a><a>
+          Horror
+        </a><a>
+          Social
+        </a><a>
+          History
+        </a></b-dropdown-item-stub>
+    </b-nav-item-dropdown-stub>
+  </b-navbar-nav-stub>
+</header>"
+`;
